@@ -13,6 +13,15 @@
     src: url(/fonts/Montserrat-Light.ttf);
 }
 
+body {
+    margin: 0;
+}
+
+.offsetDiv {
+    box-sizing: border-box;
+    margin: 0 5%;
+}
+
 .navigationMenu {
     justify-content: space-around;
     position: fixed;
@@ -57,4 +66,93 @@
 .FUNTIK{
     color: #F04242;
     font-family: 'Oswald';
+}
+
+.footerMainDiv{
+     display: flex;
+     justify-content: space-between;
+     padding: 24px 20px;
+}
+
+.footerInfo  {
+    font-size: 24px;
+    font-family: "Mont";
+    width: 55%;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+
+.footerInfoFlex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footerInfo>.FUNTIK {
+    font-size: 52px;
+}
+
+.footerInfo>p {
+    margin: 0;
+    width: 100%;
+    font-size: 26px;
+}
+
+.contacts p {
+    color: #6F6F6F;
+}
+
+.contacts span  {
+    color: black;
+}
+
+.worktime { 
+    display: flex;
+    align-items: flex-end;
+    width: 72.5%;
+}
+
+.worktime p {
+    font-size: 20px;
+    text-align: center;
+}
+
+footer.offsetDiv {
+    margin-top: 30px;
+}
+
+.footerForm {
+    margin-left: 10px;
+    font-family: "Mont";
+    font-size: 28px;
+}
+
+.footerForm>p {
+    font-size: 32px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.footerForm  input {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    border: solid 2px #000;
+    height: 60px;
+    color: rgba(0, 0, 0, .6);
+    font-size: 28px;
+    margin-top: 35px;
+    padding-left: 10px;
+}
+
+.footerForm button {
+    background-color: #000;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    padding: 7px 49px;
+    font-family: "Mont";
+    font-size: 28px;
+    margin-top: 35px;
+    border: none;
 }

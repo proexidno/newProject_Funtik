@@ -1,6 +1,7 @@
 body { 
     background-color: #1B1919;
     background-image: url(/images/image_1.svg);
+    background-size: 100%;
 }
 .textContainer {
     margin: auto;
