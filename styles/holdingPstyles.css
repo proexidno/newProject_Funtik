@@ -1,0 +1,39 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 137px;
+    font-family: "Mont";
+}
+.text-container  {
+    width: 44%;
+}
+.text-container p {
+    margin: 0;
+}
+
+.imageContainer {
+    font-size: 32px;
+    width: 41%;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start ;
+}
+
+.stisticsItem {
+    width: 275px;
+}
+
+.arounder {
+    width: 2px;
+    height: 100%;
+    border-radius: 45px;
+    background-color: gray;
+    display: inline;
+}
+
+.textStat {
+     display: inline;
+}

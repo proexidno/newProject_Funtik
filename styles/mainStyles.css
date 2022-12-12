@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "IBC";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(../fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Mont";
+    src: url(/fonts/Montserrat-Light.ttf);
+}
+
+.navigationMenu {
+    justify-content: space-around;
+    position: fixed;
+    display: flex;
+    background-color: #161616;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: "IBC";
+    font-size: 30px;
+}
+
+.navigationMenuItem {
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.navigationMenuItem div {
+    transform: translateY(-50%);
+    margin-top: 53px;
+    height: 50px;
+    display: inline;
+}
+
+.navigationMenuItem a:hover {
+    color: gray;
+}
+
+.onThisPageA {
+    border-bottom: white solid 2px;
+}
+
+.navigationMenuItem a {
+    width: 50%;
+    color: white;
+    text-decoration: none;
+}
+
+.FUNTIK{
+    color: #F04242;
+    font-family: 'Oswald';
+}
