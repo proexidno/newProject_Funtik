@@ -1,9 +1,7 @@
-main.offsetDiv>h1 {
+.offsetDiv>h1 {
     text-align: center;
-    font-family: "Mont";
     font-size: 72px;
     margin: 0;
-    margin-top: 140px;
 }
 
 .productCards {
@@ -19,12 +17,12 @@ main.offsetDiv>h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border-bottom: 9.8px solid rgba(65, 64, 64, 0.39);
+    border-bottom: 7.6px solid rgba(217, 217, 217, .8);
     box-sizing: border-box;
+    background-size: cover;
 }
 
 .productCard p {
-    font-family: "Mont";
     font-size: 32px;
     margin: 0;
     display: block;
@@ -38,7 +36,7 @@ main.offsetDiv>h1 {
 .productCard>p.productName {
     line-height: 315px;
     font-size: 72px;
-    font-family: "IBC";
+    font-family: "IBM";
 }
 
 .productCard:hover>p.productName {
